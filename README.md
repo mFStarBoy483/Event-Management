@@ -37,7 +37,7 @@ Event-Management
 │   ├── .env                # Environment variables for sensitive information
 │   ├── server.js           # Entry point for the backend server
 │   └── seeder.js           # Script for seeding initial data into the database
-└── frontend                
+└── frontend                # (If applicable, list your frontend structure here)
 ✨ Features
 🔹 Public Features:
 View Events: Retrieve a list of all available events.
@@ -115,7 +115,7 @@ Feel free to fork this repository and submit pull requests. Suggestions and impr
 This project is licensed under the MIT License.
 
 📞 Contact
-For any inquiries, contact me at your.email@example.com.
+For any inquiries, contact me at praharigokul@gmail.com.
 
 Photos 
 Main Login Page
