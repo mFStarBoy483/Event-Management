@@ -1,0 +1,62 @@
+.attendees-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.attendees-page:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.attendees-page h2 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.attendees-page ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.attendees-page li {
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s ease;
+}
+
+.attendees-page li:hover {
+  background-color: #f1f1f1;
+}
+
+.attendees-page li:last-child {
+  border-bottom: none;
+}
+
+.attendees-page li strong {
+  font-size: 18px;
+  color: #34495e;
+  font-weight: 500;
+}
+
+.attendees-page li span {
+  font-size: 15px;
+  color: #7f8c8d;
+}
+
+.attendees-page p {
+  text-align: center;
+  font-size: 18px;
+  color: #95a5a6;
+  margin: 30px 0;
+}

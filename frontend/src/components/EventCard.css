@@ -1,0 +1,12 @@
+.attendees-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    color: #ddd;
+  }
+  
+  .attendee-name {
+    font-size: 14px;
+    margin: 4px 0;
+  }
+  
