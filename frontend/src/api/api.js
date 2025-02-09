@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://event-management-o3vq.onrender.com' });
+const API = axios.create({ baseURL: "https://event-management-o3vq.onrender.com" });
 
 // Interceptor to include token in requests
 API.interceptors.request.use(
