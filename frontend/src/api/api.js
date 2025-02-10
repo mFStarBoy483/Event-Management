@@ -1,6 +1,10 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://localhost:5000/api' });
+const API = axios.create({
+  baseURL: process.env.NODE_ENV === 'production' 
+    ? 'https://your-backend-url.onrender.com/api' 
+    : 'http://localhost:5000/api'
+});
 
 // Interceptor to include token in requests
 API.interceptors.request.use(
