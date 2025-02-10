@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const API = axios.create({
   baseURL: process.env.NODE_ENV === 'production' 
-    ? 'https://your-backend-url.onrender.com/api' 
+    ? 'https://event-management-o3vq.onrender.com/api' 
     : 'http://localhost:5000/api'
 });
 
