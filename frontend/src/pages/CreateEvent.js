@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './CreateEvent.css';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
-
+const API_URL = 'https://event-management-o3vq.onrender.com';
 const CreateEvent = () => {
   const [formData, setFormData] = useState({
     title: '',
