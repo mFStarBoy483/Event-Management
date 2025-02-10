@@ -89,7 +89,6 @@ exports.registerAttendee = async (req, res) => {
 exports.getEventAttendees = async (req, res) => {
   const { eventId } = req.params;
 
-  // Check if eventId is a valid MongoDB ObjectId
   if (!mongoose.Types.ObjectId.isValid(eventId)) {
     return res.status(400).json({ message: 'Invalid event ID format' });
   }
