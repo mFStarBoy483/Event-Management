@@ -57,7 +57,7 @@ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/your-repo/event-management.git
+git clone https://github.com/mFStarBoy483/Event-Management
 cd event-management/backend
 Install dependencies:
 
