@@ -6,7 +6,6 @@ const {
   registerAttendee,
   getEventAttendees,
 } = require('../controllers/eventController');
-
 const multer = require('multer');
 const { protect } = require('../middleware/authMiddleware');
 const { storage } = require('../config/cloudinary');
