@@ -139,7 +139,7 @@ This project is licensed under the MIT License.
 📞 Contact
 
 
-For any inquiries, contact me at your.praharigokul@gmail.com.
+For any inquiries, contact me at praharigokul@gmail.com.
 
 
 
