@@ -14,7 +14,7 @@ const EventDetail = () => {
   useEffect(() => {
     const fetchEvent = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/events/${id}`);
+       const response = await axios.get(`https://event-management-o3vq.onrender.com/api/events/${id}`);
         setEvent(response.data);
       } catch (err) {
         setError('Failed to load event details');
